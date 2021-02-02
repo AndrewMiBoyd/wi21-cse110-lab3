@@ -1,132 +1,144 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+
+<head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="mystyle.css">
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-	 </style> 
-    <title>Andrew Boyd CSE110</title>
-  </head>
-  <body>
+	</style>
+	<title>Andrew Boyd CSE110</title>
+</head>
+
+<body>
 	<header>
-	  <h1>Andrew Boyd</h1><img src="Headshot.jpg" alt="Me" style="width:545px;height:447px;"/>
-	  <h3>Fourth Year Math and Computer Science Student</h3>
+		<h1>Andrew Boyd</h1><img src="Headshot.jpg" alt="Me" style="width:545px;height:447px;" />
+		<h3>Fourth Year Math and Computer Science Student</h3>
 	</header>
-    -Proficient in
-    <ul>
-		<li>C++</li>
-      	<li>C</li>
-      	<li>Java</li>
-      	<li>Python 3</li>
-      	<li>Bash</li>
-    </ul>
-    -Helpdesk experience <br />
-	-QA experience <br />
-    -Project management experience <br />
-     <br />
+	<div>
+		Proficient in
+		<ul>
+			<li>C++</li>
+			<li>C</li>
+			<li>Java</li>
+			<li>Python 3</li>
+			<li>Bash</li>
+		</ul>
+		-Helpdesk experience <br />
+		-QA experience <br />
+		-Project management experience <br />
+		<br />
+	</div>
 	<details>
-     	<summary><b>Click for Schedule</b></summary>
-      	<table>
-    	<tr>
-        	<td>
-            	Day of the Week
-        	</td>
-        	<td>
-            	Times
-        	</td>
-    	</tr>
-    	<tr>
-        	<td>
-            	Monday
-        	</td>
-        	<td>
-            	12 PM to 7 PM
-        	</td>
-    	</tr>
-          <tr>
-        	<td>
-            	Tuesday
-        	</td>
-        	<td>
-            	2 PM to 7 PM
-        	</td>
-    	</tr>
-          <tr>
-        	<td>
-            	Wednesday
-        	</td>
-        	<td>
-            	12 PM to 7 PM
-        	</td>
-    	</tr>
-          <tr>
-        	<td>
-            	Monday
-        	</td>
-        	<td>
-            	12 PM to 1 PM; 2 PM to 3 PM
-        	</td>
-    	</tr>
-          <tr>
-        	<td>
-            	Thursday
-        	</td>
-        	<td>
-            	2 PM to 5 PM
-        	</td>
-    	</tr>
-        <tr>
-        	<td>
-            	Friday
-        	</td>
-        	<td>
-            	12 PM to 3 PM
-        	</td>
-    	</tr>
-        <tr>
-        	<td>
-            	Saturday
-        	</td>
-        	<td>
-            	1 PM to 6 PM
-        	</td>
-        </tr>
-        <tr>
-            <td>
-            	Sunday
-        	</td>
-        	<td>
-            	1 PM to 6 PM
-        	</td>
-    	</tr>
-	</table>
-    </details>
-    <br>
-	<input type="button" onclick="alert('Hi there!')" value="Try me"> 
-    <br>
-    <br />
-  	If you would like to send me an email, fill out the following form.<br />
+		<summary><b>Click for Schedule</b></summary>
+		<table>
+			<tr>
+				<td>
+					<div class="tableHeader">
+						Day of the Week
+					</div>
+				</td>
+				<td>
+					<div class="tableHeader">
+						Times
+					</div>
+				</td>
+			</tr>
 
-  	Your email address:<br />
-	<input type="email"><br />
+			<tr>
+				<td>
+					Monday
+				</td>
+				<td>
+					12 PM to 7 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Tuesday
+				</td>
+				<td>
+					2 PM to 7 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Wednesday
+				</td>
+				<td>
+					12 PM to 7 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Monday
+				</td>
+				<td>
+					12 PM to 1 PM; 2 PM to 3 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Thursday
+				</td>
+				<td>
+					2 PM to 5 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Friday
+				</td>
+				<td>
+					12 PM to 3 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Saturday
+				</td>
+				<td>
+					1 PM to 6 PM
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Sunday
+				</td>
+				<td>
+					1 PM to 6 PM
+				</td>
+			</tr>
+		</table>
+	</details>
+	<br>
+	<input type="button" onclick="alert('Hi there!')" value="Try me">
+	<br>
+	<br />
+	<div>
+		If you would like to send me an email, fill out the following form.<br />
 
-	Body:<br />
-	<input type="text" style="height:250px;width:500px;"><br />
-	<b>Purpose of Email</b>
-    <form>
-  		<input type="radio" id="issues" name="reason" value="issues">
-  		<label for="issues">Issues</label><br>
-  		<input type="radio" id="feedback" name="reason" value="feedback">
-  		<label for="feedback">Feedback</label><br>
-      	<input type="radio" id="help" name="reason" value="feedback">
-  		<label for="feedback">Help Request</label><br>
-  		<input type="radio" id="other" name="reason" value="other">
-  		<label for="other">Other</label>
-	</form> 
-    <label for="quantity">On a scale of 1 to 5, how critical is your email:</label>
-  	<input type="number" id="quantity" name="quantity" min="1" max="5"><br />
-	<input type="Submit" value="Send">
-    <input type="reset">
-  </body>
+		Your email address:<br />
+		<input type="email"><br />
+
+		Body:<br />
+		<input type="text" style="height:250px;width:500px;"><br />
+		<b>Purpose of Email</b>
+		<form>
+			<input type="radio" id="issues" name="reason" value="issues">
+			<label for="issues">Issues</label><br>
+			<input type="radio" id="feedback" name="reason" value="feedback">
+			<label for="feedback">Feedback</label><br>
+			<input type="radio" id="help" name="reason" value="feedback">
+			<label for="feedback">Help Request</label><br>
+			<input type="radio" id="other" name="reason" value="other">
+			<label for="other">Other</label>
+		</form>
+		<label for="quantity">On a scale of 1 to 5, how critical is your email:</label>
+		<input type="number" id="quantity" name="quantity" min="1" max="5"><br />
+		<input type="Submit" value="Send">
+		<input type="reset">
+	</div>
+</body>
+
 </html>
