@@ -20,6 +20,7 @@ h2::first-letter{
 }
 
 body {
+	position:static;
 	background-color: lightblue;
 	color: hsl(0, 0%, 11%);
 }
@@ -67,4 +68,10 @@ input:hover {
 
 input[type="radio"]:active {
 	margin: 3px 0px 3px 10px;
+}
+
+input[type="button"]{
+	position: fixed;
+	bottom: 0px;
+    right: 0px; 
 }
