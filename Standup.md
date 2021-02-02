@@ -13,6 +13,9 @@ __Notetaker:__
 
 ### What are you having trouble with?
 
+
 ### What sprint goal are you working on?
 
+
 ### What concerns do you have with the project's progress?
+
