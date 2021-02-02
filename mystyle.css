@@ -12,7 +12,19 @@ body {
 }
 
 table {
+	border-spacing:0;
 	border-style: solid;
 	border-color: rgb(60, 179, 113);
+	border-width: medium;
 	border-radius: 5px;
+}
+
+.tableHeader {
+	text-decoration: underline;
+}
+
+td{
+	border-right: solid 2px rgba(60, 179, 113, 125);;
+	
+	
 }
