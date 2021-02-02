@@ -9,12 +9,13 @@
 	</style>
 	<title>Andrew Boyd CSE110</title>
 </head>
+
 <body>
 	<header>
 		<h1>Andrew Boyd</h1>
 		<img src="Headshot.jpg" alt="Me" style="width:545px;height:497px;" />
 		<h2>Fourth Year Math and Computer Science Student</h3>
-	</header>	
+	</header>
 	<span id="resume">
 		<p>Proficient in</p>
 		<ul>
@@ -124,22 +125,32 @@
 		<p>Purpose of Email</p>
 		<form>
 			<input type="radio" id="issues" name="reason" value="issues">
-			<label for="issues">Issues</label><br>
+			<label for="issues">Issues</label>
 			<input type="radio" id="feedback" name="reason" value="feedback">
-			<label for="feedback">Feedback</label><br>
+			<label for="feedback">Feedback</label>
 			<input type="radio" id="help" name="reason" value="feedback">
-			<label for="feedback">Help Request</label><br>
+			<label for="feedback">Help Request</label>
 			<input type="radio" id="other" name="reason" value="other">
 			<label for="other">Other</label>
 		</form>
-		<label for="quantity">On a scale of 1 to 5, how critical is your email:</label>
-		<input type="number" id="quantity" name="quantity" min="1" max="5"><br />
-		<input type="submit" value="Send">
-		<input type="reset">
+		<div class="grid-container">
+			<label for="quantity">On a scale of 1 to 5, how critical is your email:</label>
+			<input type="number" id="quantity" name="quantity" min="1" max="5">
+			<input type="submit" value="Send">
+			<input type="reset">
+		</div>
 	</span>
 	<br />
 	<div>
 		<input type="button" onclick="alert('Hi there!')" value="Try me">
+	</div>
+	<div class="flex-container">
+		<div class="letter">A</div>
+		<div>n</div>
+		<div>d</div>
+		<div>r</div>
+		<div>e</div>
+		<div>w</div>
 	</div>
 </body>
 

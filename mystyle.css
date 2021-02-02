@@ -65,6 +65,9 @@ input:hover {
 	border-color: hsla(0, 100%, 0%, 50%);
 }
 
+#radio label{
+	display: inline;
+}
 
 input[type="radio"]:active {
 	margin: 3px 0px 3px 10px;
@@ -73,5 +76,59 @@ input[type="radio"]:active {
 input[type="button"]{
 	position: fixed;
 	bottom: 0px;
-    right: 0px; 
+	right: 0px; 
+	display: block;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 300px;
+	grid-row-gap:5px;
+	
+}
+
+@media (min-width: 600px) {
+	.grid-container {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 400px;
+		grid-row-gap:5px;
+	}
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center
+}
+
+.letter{
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 10px;
+	font-size: 40px;
+}
+.letter ~ div { 
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+  }
+
+  
+@media (max-width: 600px) {
+	div.letter{ /*combining two selectors*/
+		background-color: #f1f1f1;
+		margin: 5px;
+		padding: 5px;
+		font-size: 20px;
+	}
+	.letter ~ div { /*general sibling selector*/
+		background-color: #f1f1f1;
+		margin: 5px;
+		padding: 10px;
+		font-size: 15px;
+	}
 }
