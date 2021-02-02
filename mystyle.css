@@ -6,16 +6,30 @@ header{
 	font-size: 1rem
 }
 
-header > h1 {
+header > h1 { /*Child combinator*/
 	margin-top:0;
 	padding-top: 0.2in;
 }
-header > h2{
+
+header h2{ /*Descendant combinator*/
 	font-size: 6mm;
 }
 
 body {
-   	background-color: lightblue;
+	background-color: lightblue;
+	color: hsl(0, 0%, 11%);
+}
+
+p + ul { /*Adjacent sibling combinator*/
+	padding:0px 0px 0px 12px;
+}
+
+#resume{
+	font-size: 1.2em;
+}
+
+#resume p,#resume ul{ /*Selector list*/
+	margin:0.3%;
 }
 
 table {
@@ -30,14 +44,6 @@ table {
 	color: #FFF
 }
 
-#resume{
-	font-size: 1.2em;
-}
-
-#resume p,#resume ul{
-	margin:0.3%;
-}
-
 .tableHeader {
 	text-decoration: underline;
 	font-weight: 700;
@@ -45,4 +51,14 @@ table {
 
 td{
 	border-right: solid 2px rgba(60, 179, 113, 90);	
+}
+
+input:hover {
+	border-style: solid;
+	border-color: hsla(0, 100%, 0%, 50%);
+}
+
+
+input[type="radio"] {
+	margin: 0 0 0 0;
 }
