@@ -2,9 +2,16 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+header{
+	font-size: 1rem
+}
 
-header h1 {
-    margin-top:0;
+header > h1 {
+	margin-top:0;
+	padding-top: 0.2in;
+}
+header > h2{
+	font-size: 6mm;
 }
 
 body {
@@ -12,6 +19,7 @@ body {
 }
 
 table {
+	border-right-width:thick;
 	border-spacing:0;
 	background-color:#78BE21;
 	border-style: solid;
@@ -20,6 +28,14 @@ table {
 	border-radius: 5px;
 	text-align: center;
 	color: #FFF
+}
+
+#resume{
+	font-size: 1.2em;
+}
+
+#resume p,#resume ul{
+	margin:0.3%;
 }
 
 .tableHeader {

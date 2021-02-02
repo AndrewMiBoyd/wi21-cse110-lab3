@@ -12,11 +12,11 @@
 
 <body>
 	<header>
-		<h1>Andrew Boyd</h1><img src="Headshot.jpg" alt="Me" style="width:545px;height:447px;" />
+		<h1>Andrew Boyd</h1><img src="Headshot.jpg" alt="Me" style="width:545px;height:497px;" />
 		<h3>Fourth Year Math and Computer Science Student</h3>
-	</header>
-	<div>
-		Proficient in
+	</header>	
+	<span id="resume">
+		<p>Proficient in</p>
 		<ul>
 			<li>C++</li>
 			<li>C</li>
@@ -24,105 +24,104 @@
 			<li>Python 3</li>
 			<li>Bash</li>
 		</ul>
-		-Helpdesk experience <br />
-		-QA experience <br />
-		-Project management experience <br />
-		<br />
-	</div>
-	<details>
-		<summary><b>Click for Schedule</b></summary>
-		<table>
-			<tr>
-				<td>
-					<div class="tableHeader">
-						Day of the Week
-					</div>
-				</td>
-				<td>
-					<div class="tableHeader">
-						Times
-					</div>
-				</td>
-			</tr>
-
-			<tr>
-				<td>
-					Monday
-				</td>
-				<td>
-					12 PM to 7 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Tuesday
-				</td>
-				<td>
-					2 PM to 7 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Wednesday
-				</td>
-				<td>
-					12 PM to 7 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Monday
-				</td>
-				<td>
-					12 PM to 1 PM; 2 PM to 3 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Thursday
-				</td>
-				<td>
-					2 PM to 5 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Friday
-				</td>
-				<td>
-					12 PM to 3 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Saturday
-				</td>
-				<td>
-					1 PM to 6 PM
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Sunday
-				</td>
-				<td>
-					1 PM to 6 PM
-				</td>
-			</tr>
-		</table>
-	</details>
-	<br>
-	<input type="button" onclick="alert('Hi there!')" value="Try me">
-	<br>
+		<p>Helpdesk experience</p>
+		<p>QA experience</p>
+		<p>Project management experience</p>
+	</span>
 	<br />
 	<div>
-		If you would like to send me an email, fill out the following form.<br />
+		<details>
+			<summary><b>Click for Schedule</b></summary>
+			<table>
+				<tr>
+					<td>
+						<div class="tableHeader">
+							Day of the Week
+						</div>
+					</td>
+					<td>
+						<div class="tableHeader">
+							Times
+						</div>
+					</td>
+				</tr>
 
-		Your email address:<br />
-		<input type="email"><br />
+				<tr>
+					<td>
+						Monday
+					</td>
+					<td>
+						12 PM to 7 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Tuesday
+					</td>
+					<td>
+						2 PM to 7 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Wednesday
+					</td>
+					<td>
+						12 PM to 7 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Monday
+					</td>
+					<td>
+						12 PM to 1 PM; 2 PM to 3 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Thursday
+					</td>
+					<td>
+						2 PM to 5 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Friday
+					</td>
+					<td>
+						12 PM to 3 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Saturday
+					</td>
+					<td>
+						1 PM to 6 PM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Sunday
+					</td>
+					<td>
+						1 PM to 6 PM
+					</td>
+				</tr>
+			</table>
+		</details>
+	</div>
+	<br />
+	<span>
+		If you would like to send me an email, fill out the following form.
+
+		Your email address:
+		<input type="email">
 
 		Body:<br />
-		<input type="text" style="height:250px;width:500px;"><br />
+		<input type="text" style="height:250px;width:500px;">
 		<b>Purpose of Email</b>
 		<form>
 			<input type="radio" id="issues" name="reason" value="issues">
@@ -138,6 +137,10 @@
 		<input type="number" id="quantity" name="quantity" min="1" max="5"><br />
 		<input type="Submit" value="Send">
 		<input type="reset">
+	</span>
+	<br />
+	<div>
+		<input type="button" onclick="alert('Hi there!')" value="Try me">
 	</div>
 </body>
 
