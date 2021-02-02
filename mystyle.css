@@ -13,18 +13,20 @@ body {
 
 table {
 	border-spacing:0;
+	background-color:#78BE21;
 	border-style: solid;
 	border-color: rgb(60, 179, 113);
 	border-width: medium;
 	border-radius: 5px;
+	text-align: center;
+	color: #FFF
 }
 
 .tableHeader {
 	text-decoration: underline;
+	font-weight: 700;
 }
 
 td{
-	border-right: solid 2px rgba(60, 179, 113, 125);;
-	
-	
+	border-right: solid 2px rgba(60, 179, 113, 90);	
 }
